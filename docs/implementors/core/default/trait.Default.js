@@ -1,0 +1,11 @@
+(function() {var implementors = {};
+implementors["gens_bailsman"] = [{"text":"impl Default for GenesisConfig","synthetic":false,"types":[]}];
+implementors["gens_balances"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; Default for GenesisConfig&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_oracle"] = [{"text":"impl Default for Public","synthetic":false,"types":[]},{"text":"impl Default for Signature","synthetic":false,"types":[]},{"text":"impl&lt;AccountId:&nbsp;Default, BlockNumber:&nbsp;Default&gt; Default for DataPoint&lt;AccountId, BlockNumber&gt;","synthetic":false,"types":[]},{"text":"impl&lt;AccountId:&nbsp;Default, BlockNumber:&nbsp;Default&gt; Default for PricePoint&lt;AccountId, BlockNumber&gt;","synthetic":false,"types":[]},{"text":"impl Default for GenesisConfig","synthetic":false,"types":[]}];
+implementors["gens_primitives"] = [{"text":"impl Default for Currency","synthetic":false,"types":[]},{"text":"impl&lt;Balance&gt; Default for SignedBalance&lt;Balance&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;Balance: Member + Default,&nbsp;</span>","synthetic":false,"types":[]},{"text":"impl Default for UserGroup","synthetic":false,"types":[]},{"text":"impl&lt;Balance:&nbsp;Default&gt; Default for TotalAggregates&lt;Balance&gt;","synthetic":false,"types":[]},{"text":"impl Default for TransferReason","synthetic":false,"types":[]}];
+implementors["gens_rate"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; Default for GenesisConfig&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_session_manager"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; Default for GenesisConfig&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_vesting"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; Default for GenesisConfig&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_volatility"] = [{"text":"impl Default for GenesisConfig","synthetic":false,"types":[]}];
+implementors["gens_whitelists"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; Default for GenesisConfig&lt;T&gt;","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

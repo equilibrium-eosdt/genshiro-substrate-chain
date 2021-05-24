@@ -1,0 +1,16 @@
+[workspace]
+members = [
+  "node",
+  "runtime",
+  "pallets/gens-balances",
+  "pallets/gens-distribution",
+  "pallets/gens-session-manager",
+  "pallets/gens-vesting",
+  "gens-primitives",
+  "gens-integration-testing",
+  "gens-integration-testing/gens-integration-testing-macro",
+]
+
+[profile.release]
+# Substrate runtime requires unwinding.
+panic = "unwind"

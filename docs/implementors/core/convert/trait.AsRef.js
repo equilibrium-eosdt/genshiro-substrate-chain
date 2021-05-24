@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["gens_oracle"] = [{"text":"impl AsRef&lt;Public&gt; for Public","synthetic":false,"types":[]},{"text":"impl AsRef&lt;[u8]&gt; for Public","synthetic":false,"types":[]},{"text":"impl AsRef&lt;Signature&gt; for Signature","synthetic":false,"types":[]},{"text":"impl AsRef&lt;[u8]&gt; for Signature","synthetic":false,"types":[]},{"text":"impl AsRef&lt;Pair&gt; for Pair","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

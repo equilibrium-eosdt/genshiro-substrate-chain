@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["gens_oracle"] = [{"text":"impl PartialOrd&lt;Public&gt; for Public","synthetic":false,"types":[]}];
+implementors["gens_primitives"] = [{"text":"impl PartialOrd&lt;Currency&gt; for Currency","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;CurrencyTag&gt; for CurrencyTag","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;UserGroup&gt; for UserGroup","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;TransferReason&gt; for TransferReason","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

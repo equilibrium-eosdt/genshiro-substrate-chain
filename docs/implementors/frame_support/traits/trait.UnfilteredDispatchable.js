@@ -1,0 +1,13 @@
+(function() {var implementors = {};
+implementors["gens_aggregates"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_bailsman"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_balances"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_distribution"] = [{"text":"impl&lt;T:&nbsp;Trait&lt;I&gt;, I:&nbsp;Instance&gt; UnfilteredDispatchable for Call&lt;T, I&gt;","synthetic":false,"types":[]}];
+implementors["gens_oracle"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_rate"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_session_manager"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_treasury"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_vesting"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_volatility"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_whitelists"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; UnfilteredDispatchable for Call&lt;T&gt;","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

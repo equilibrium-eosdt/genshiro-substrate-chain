@@ -1,0 +1,14 @@
+(function() {var implementors = {};
+implementors["gens_aggregates"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_bailsman"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_balances"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_distribution"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&lt;I&gt;, I:&nbsp;Copy + Instance&gt; Copy for Module&lt;T, I&gt;","synthetic":false,"types":[]}];
+implementors["gens_oracle"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_primitives"] = [{"text":"impl Copy for Currency","synthetic":false,"types":[]},{"text":"impl Copy for CurrencyTag","synthetic":false,"types":[]},{"text":"impl Copy for UserGroup","synthetic":false,"types":[]},{"text":"impl Copy for TransferReason","synthetic":false,"types":[]}];
+implementors["gens_rate"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_session_manager"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_treasury"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_vesting"] = [{"text":"impl&lt;Balance:&nbsp;Copy, BlockNumber:&nbsp;Copy&gt; Copy for VestingInfo&lt;Balance, BlockNumber&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_volatility"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["gens_whitelists"] = [{"text":"impl&lt;T:&nbsp;Copy + Trait&gt; Copy for Module&lt;T&gt;","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

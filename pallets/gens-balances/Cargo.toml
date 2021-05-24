@@ -1,0 +1,90 @@
+[package]
+authors = ["genshiro"]
+edition = "2018"
+name = "gens-balances"
+version = "0.1.0"
+
+[dependencies]
+codec = {package = "parity-scale-codec", version = "1.2.0", default-features = false, features = ["derive"]}
+impl-trait-for-tuples = "0.1.3"
+safe-mix = {default-features = false, version = '1.0.0'}
+serde = {version = "1.0.101", optional = true, features = ["derive"]}
+
+[dependencies.frame-support]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dependencies.system]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+package = 'frame-system'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dependencies.sp-runtime]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dependencies.sp-std]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dev-dependencies.sp-core]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dev-dependencies.sp-io]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dev-dependencies.sp-runtime]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dependencies.sp-arithmetic]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[dependencies.gens-primitives]
+default-features = false
+package = "gens-primitives"
+path = "../../gens-primitives"
+version = "0.1.0"
+
+[dependencies.frame-benchmarking]
+default-features = false
+git = 'https://github.com/paritytech/substrate.git'
+optional = true
+package = 'frame-benchmarking'
+tag = "v2.0.0-rc6"
+version = '2.0.0-rc6'
+
+[features]
+default = ['std']
+std = [
+  'codec/std',
+  'frame-support/std',
+  'safe-mix/std',
+  "sp-std/std",
+  'system/std',
+  "sp-runtime/std",
+  "sp-arithmetic/std",
+  "gens-primitives/std",
+  "serde",
+]
+
+runtime-benchmarks = ["frame-benchmarking"]
